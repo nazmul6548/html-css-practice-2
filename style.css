@@ -110,6 +110,7 @@ button{
     margin-left: 10px;
     
     
+    
 }
 .cover-text h1{
     letter-spacing: 6px;
@@ -120,9 +121,23 @@ button{
     letter-spacing: 4px;
     margin-bottom: 15px;
 }
+.service-section{
+    display: flex;
+    justify-content: space-between;
+}
+.service-img{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    margin: 15px;
+}
 .service-img img{
     width: 300px;
     height: 300px;
+    
+    padding: 7px;
+}
+.service-text{
+    text-align: center;
 }
 .footer-container{
     background-color: #090909;
